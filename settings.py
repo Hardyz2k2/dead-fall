@@ -2,7 +2,7 @@
 SCREEN_WIDTH = 1280
 SCREEN_HEIGHT = 720
 FPS = 60
-TITLE = "Dead Zone: Apocalypse"
+TITLE = "Dead Fall"
 
 # Physics
 GRAVITY = 0.8

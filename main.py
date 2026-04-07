@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Dead Zone: Apocalypse - 2D Side-Scrolling Zombie Shooter"""
+"""Dead Fall - 2D Side-Scrolling Zombie Shooter"""
 
 from src.game import Game
 from src.states.menu_state import MenuState

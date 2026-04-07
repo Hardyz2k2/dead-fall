@@ -48,12 +48,12 @@ class MenuState(BaseState):
         screen.fill((10, 5, 15))
 
         # Title
-        title_surf = self.title_font.render("DEAD ZONE", True, RED)
+        title_surf = self.title_font.render("DEAD FALL", True, RED)
         title_rect = title_surf.get_rect(centerx=SCREEN_WIDTH // 2, y=140 + self.title_y)
         screen.blit(title_surf, title_rect)
 
         # Subtitle
-        sub_surf = self.subtitle_font.render("A P O C A L Y P S E", True, DARK_RED)
+        sub_surf = self.subtitle_font.render("Z O M B I E   A P O C A L Y P S E", True, DARK_RED)
         sub_rect = sub_surf.get_rect(centerx=SCREEN_WIDTH // 2, y=220 + self.title_y)
         screen.blit(sub_surf, sub_rect)
 
